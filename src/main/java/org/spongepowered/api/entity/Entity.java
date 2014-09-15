@@ -41,7 +41,7 @@ public interface Entity {
     /**
      * Gets the time this entity has existed
      *
-     * @return The entity's age
+     * @return The entity's {@link Duration}
      */
     Duration getAge();
 }
